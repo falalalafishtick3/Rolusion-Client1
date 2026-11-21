@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "rolusion",
+  "version": "${version}",
+  "name": "Rolusion Client",
+  "description": "Rolusion Client - a client-side utility, render and HUD mod with a click GUI.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.rolusion.RolusionClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
